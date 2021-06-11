@@ -1,0 +1,70 @@
+# Help can be found here
+
+The files are included several materials and the material properties are included in the codes. The material parameters can be directly import by the code.
+The material properties can be found in "material properties.xlsx"
+
+The file names of constant loading data are list as following:
+
+High cycle fatigue and low cycle fatigue
+loading_data_304.mat
+loading_data_6061.mat
+loading_data_7075.mat
+loading_data_A533b.mat
+loading_data_S45c.mat
+loading_data_S460N.mat
+loading_data_SAE1045.mat
+
+The file names of random loading data from T7075 are list as following:
+
+High cycle fatigue 
+test1_u1.mat
+test1_u2.mat
+test1_u3.mat
+test1_u4.mat
+test1_u5.mat
+test1_u6.mat
+test1_p1.mat
+test1_p2.mat
+test1_p3.mat
+test1_np1.mat
+test1_np2.mat
+
+Low cycle fatigue
+test_LCF_HCF_linear.mat
+test_LCF_HCF_nonlinear.mat
+test_LCF_HCF_pro.mat
+test_LCF_HCF_nonpro.mat
+
+The file list:
+Main code: 
+Life prediction for constant loading under different materials
+"constant_304.m" 
+"constant_6061.m" 
+"constant_7075.m" 
+"constant_A533b.m" 
+"constant_S45C.m" 
+"constant_S460N.m"
+"constant_SAE1045.m" 
+
+Life prediction for random loading under T7075
+"Random_7075.m"
+
+Other:
+Convert raw data to equivalent energy.
+"spectrum_convertion.m" 
+"Energy_test.m"
+"Fatigue_Model_D.m"
+
+Life prediction result can be plotted by 
+"plot_7075.m"
+
+Procedure
+Constand loading case prediction
+For the first step, the material property file needs to be input at line #3 in constant loading prediction file (e.g. constant_304.m)
+The second step, input loading file for certain material at line #22
+Then, run the code can directly acquire each fatigue life prediction.
+
+Random loading case prediction
+The material properties and loading types are included in the file:"Random_7075.m"
+The fatigue life prediction can be directly calculated by running the code. 
+The different spectrums can be found in the line #19 to line #39
