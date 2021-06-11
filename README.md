@@ -1,0 +1,1 @@
+# Energy-based-time-derivative-damage-accumulation-model-under-uniaxial-and-multiaxial-random-loadings
