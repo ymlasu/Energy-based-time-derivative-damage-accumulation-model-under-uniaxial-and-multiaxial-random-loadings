@@ -26,4 +26,4 @@ Authors: Shih-Chuan Tien stien1@asu.edu,
 Prognostic Analysis and Reliability Assessment Lab, Arizona State University. https://paralab.engineering.asu.edu/
 
 Revise by Shih-Chuan Tien
-Last date: 06/11/2021
+Last date: 06/14/2021
