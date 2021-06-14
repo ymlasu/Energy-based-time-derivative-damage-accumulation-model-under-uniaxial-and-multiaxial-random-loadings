@@ -7,7 +7,7 @@ The paper collects different methods and lists several methods in the table. The
 An energy-based model to assess multiaxial fatigue damage under tension-torsion and tension-tension loadings: 
 https://github.com/ymlasu/An-energy-based-model-under-multiaxial-biaxial-loading
 
-Multiaxial high-cycle fatigue life prediction under random spectrum loadings:
+Multiaxial high-cycle fatigue life prediction under random spectrum loadings:                          
 https://github.com/ymlasu/Multiaxial-high-cycle-fatigue-life-prediction-model
 
 Strain-based multiaxial fatigue damage modelling:                                
