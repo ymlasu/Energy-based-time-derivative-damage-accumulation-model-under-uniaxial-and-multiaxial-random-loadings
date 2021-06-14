@@ -2,6 +2,11 @@
 
 This model can directly predict fatigue life both uniaxial and multiaxial loading under constant and random loadings no matter high cycle faitgue or low cycle fatigue regimes. The code is suitable for different materials. The code includes seven materials and several loading path under HCF and LCF.
 
+The paper collect different methods and list several methods in the table. The following achievements are proposed by our lab.
+
+
+
+
 The code is proposed under "Energy-based time-derivative damage accumulation model under uniaxial and multiaxial random loadings". All the detail in the code can be found in this paper.
 
 Web: https://arxiv.org/abs/2106.02128
